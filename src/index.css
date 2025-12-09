@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* GLOBAL DARK MODE */
+body {
+  @apply bg-white text-slate-900 transition-colors duration-300
+         dark:bg-slate-950 dark:text-slate-100;
+}
+
 .section {
   opacity: 0;
   transform: translateY(20px);
